@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "612368786618",
+    "project_id": "gts-task",
+    "storage_bucket": "gts-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612368786618:android:86bbe85b054dedb5168e83",
+        "android_client_info": {
+          "package_name": "com.alhussein.gts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612368786618-o9p9fquufpl5q3vfl21g9kbt762jdmsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKyWLl4Y_d6aqzXi1mLOHehvPlSonofBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612368786618-o9p9fquufpl5q3vfl21g9kbt762jdmsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

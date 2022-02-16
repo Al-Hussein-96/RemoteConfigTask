@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GTS</string>
+    <string name="welcome">Welcome</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="language">Language</string>
+    <string name="theme_mode">Theme mode</string>
+    <string name="save">Save</string>
+</resources>
