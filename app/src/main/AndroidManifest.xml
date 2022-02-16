@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GTS">
         <activity
-            android:name=".SplashActivity"
+            android:name=".presentation.ui.SplashActivity"
             android:exported="true"
             android:configChanges="uiMode"
             android:theme="@style/SplashTheme">
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.ui.MainActivity"
 
             android:exported="true" />
     </application>

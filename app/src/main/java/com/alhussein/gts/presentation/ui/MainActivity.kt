@@ -1,11 +1,10 @@
-package com.alhussein.gts
+package com.alhussein.gts.presentation.ui
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.core.view.get
+import com.alhussein.gts.MyApp
 import com.alhussein.gts.databinding.ActivityMainBinding
 
 

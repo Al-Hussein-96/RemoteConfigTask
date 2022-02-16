@@ -1,4 +1,4 @@
-package com.alhussein.gts
+package com.alhussein.gts.presentation.view_model
 
 import androidx.lifecycle.ViewModel
 import com.alhussein.gts.data.repository.FirebaseRepository

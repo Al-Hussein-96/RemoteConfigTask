@@ -1,25 +1,24 @@
-package com.alhussein.gts
+package com.alhussein.gts.presentation.ui
 
 import android.app.Dialog
-import android.content.Context
 import android.content.Intent
-import android.content.res.Configuration
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.CountDownTimer
-import android.text.TextUtils
 import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import com.alhussein.gts.MyApp
+import com.alhussein.gts.R
 import com.alhussein.gts.data.model.ResultApp
+import com.alhussein.gts.presentation.view_model.SplashViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
-import java.util.*
 
 
 @AndroidEntryPoint
