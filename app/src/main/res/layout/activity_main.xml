@@ -8,6 +8,7 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +40,7 @@
         android:id="@+id/language"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:checkedButton="@id/english"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,21 +49,21 @@
         app:layout_constraintTop_toBottomOf="@id/language_txt">
 
         <androidx.appcompat.widget.AppCompatRadioButton
-            android:id="@+id/arabic"
+            android:id="@+id/english"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
-            android:text="@string/arabic" />
+            android:text="@string/english" />
 
         <androidx.appcompat.widget.AppCompatRadioButton
-            android:id="@+id/english"
+            android:id="@+id/arabic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
 
-            android:text="@string/english" />
+            android:text="@string/arabic" />
 
     </RadioGroup>
 
@@ -70,7 +71,7 @@
         android:id="@+id/mode_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
 
         android:text="@string/theme_mode"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,8 +81,7 @@
         android:id="@+id/ui_mode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
         android:checkedButton="@id/light"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,9 +115,11 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ui_mode"
+        android:visibility="gone"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintWidth_default="percent"
-        app:layout_constraintWidth_percent="0.3" />
+        app:layout_constraintWidth_percent="0.4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

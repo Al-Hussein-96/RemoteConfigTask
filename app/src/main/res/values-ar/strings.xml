@@ -2,7 +2,15 @@
 <resources>
     <string name="app_name">GTS</string>
     <string name="welcome">اهلاً بك</string>
-    <string name="maintenance">Maintenance</string>
+    <string name="maintenance">الصيانة</string>
+
+    <string name="arabic">عربي</string>
+    <string name="english">انكليزي</string>
+    <string name="light">الوضع العادي</string>
+    <string name="dark">الوضع الليلي</string>
+    <string name="language">اللغة</string>
+    <string name="theme_mode">الوضع</string>
+    <string name="save">حفظ</string>
 
 
 </resources>
